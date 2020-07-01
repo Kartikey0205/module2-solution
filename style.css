@@ -1,15 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
-
-    font-weight: 600;
+    
 }
 
 h1{
     /* border: 2px solid green; */
     margin: 2rem 0px 2rem 0px;
     text-align: center;
-    font-family: cursive;
+    font-family: monospace;
+    font-weight: 700;
+font-size: 3rem;
+    
 }
 
 @media screen and (min-width:992px){
@@ -20,6 +22,7 @@ h1{
     
 display: flex;
 align-items: center;
+
     justify-content: space-evenly;
 }
 .box{
@@ -76,7 +79,10 @@ align-items: center;
  .container{
     /* border: 5px solid yellow; */
     margin: 0px 2rem;
-    font-family: cursive;
+
+    font-family: monospace;
+    font-weight: 700;
+font-size: 1.2rem;
 }
 
 
@@ -85,7 +91,7 @@ align-items: center;
 
     border: 2px solid black;
     box-sizing: border-box;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 
 }
 
@@ -95,6 +101,9 @@ h3{
     padding: 3px 1.6rem;
     border: 1px solid black;
     box-sizing: border-box;
+    font-family: monospace;
+    font-weight: 700;
+font-size: 1.2rem;
 }
 
 #c{
@@ -114,6 +123,8 @@ h3{
     padding: 2rem 0px  0px 0px ;
     text-align: left;
     margin: 1px 1rem 0px 1rem;
-
+    font-family: monospace;
+    font-weight: 700;
+font-size: 1.2rem;
 }
 
